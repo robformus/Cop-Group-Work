@@ -11,29 +11,38 @@ That's about the gist of it (there's actually more detail than that). Now the wo
 Jonathan Rodrigues: 
 
 Export Txt file
+
 Add additional menu options when menu has been completed
+
 Error Checking
+
 Implement functions from team into C file.
 
 
 Robert
 
 the Input 4 Exams function
+
 Design Tool
 
 
 Rory
 
 Clear Gradebook Function (set binary file to default values)
+
 Average for Students Function
+
 Average for Exam Function
+
 Average for Class Function
 
 
 Tj
 
 Menu
+
 Import Bin
+
 Making sure that everything for the Bin is working as nescessary.
 
 

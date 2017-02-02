@@ -10,7 +10,7 @@ That's about the gist of it (there's actually more detail than that). Now the wo
 
 Jonathan Rodrigues: 
 
-Export Txt file
+\nExport Txt file
 
 Add additional menu options when menu has been completed
 

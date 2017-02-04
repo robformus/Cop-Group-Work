@@ -1,0 +1,38 @@
+#include<stdlib.h>
+#include <stdio.h>
+
+#define FLUSH flush();
+#define col 1 // how many rows needed.
+#define score 4 // change how many grades you want to input.
+
+
+int main()
+{
+	int examGrades[score][col], i, j, studentVID;
+	char firstName[25], lastName[25];
+	int counter = 1001;
+	//Student VID assigner
+	if (counter > 0) {
+		printf("Student VID: V%4i\n", counter);
+	}
+	
+
+	//First name
+	printf("Enter student first name: \n");
+	scanf_s("%25s", &firstName, 24);
+	//Last name
+	printf("Enter student last name: \n");
+	scanf_s("%25s", &lastName, 24);
+	
+	printf("Exam grades:\n");
+	//Grades loop
+	for (i = 0; i < score; i++)
+	{
+		for (j = 0; j < col; j++)
+		{
+			printf("Exam #%d, Grade: ", i + 1);
+			scanf_s("%d", &examGrades[j][i]);
+		}
+	}
+	system("pause");
+}
